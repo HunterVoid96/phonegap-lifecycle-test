@@ -1,7 +1,7 @@
 var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
-
+    //event listerner
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
@@ -27,13 +27,13 @@ var launched_count = 0;
     }
 
     // Handle the pause event
-    //
+    //An event handler processes actions these can be triggered by the user e.g. keystrokes or the system itself. 
     function onPause() {
 		alert("pause");
 		paused_count++;
 		updateDisplay();
     }
-	
+	// Handle the resume event
 	function onResume() {
 		alert("resume");
 		resumed_count++;

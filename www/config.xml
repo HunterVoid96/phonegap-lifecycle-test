@@ -15,7 +15,7 @@
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
         WBS Computing
     </author>
-
+	<preference name="phonegap-version" value="3.1.0" />
     <preference name="permissions"                value="none"/>   
 	
 	<access origin="*"/>
