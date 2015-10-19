@@ -40,7 +40,7 @@ var chocbarstring = JSON.stringify (chocbar);
 window.localStorage.setItem("Carbohydrate", "Total fat", "Fibre", chocbarstring);
 var getchocbar = window.localStorage.getItem("Carbohydrate","Total fat", "Fibre");
 var chocbarJSON = JSON.parse(getchocbar);
-window.alert(chocbar);
+window.alert("Carbohydrate");
 
     //event listerner
     function onLoad() {
