@@ -13,7 +13,7 @@ var key5= "laptop";
 var value5 = "black";
 window.localStorage.setItem( key, value1, key2, value2, key3, value3, key4, value4, key5, value5);
 var value6 = window.localStorage.getItem(key, key2, key3, key4, key5);
-window.alert(key, value1);
+window.alert(value6);
     //event listerner
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
