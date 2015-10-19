@@ -1,6 +1,7 @@
 var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
+/*
 var key = "pen";
 var value1 = "red";
 var key2 = "phone";
@@ -18,6 +19,28 @@ window.alert(key);
 window.alert(value6);
 window.alert(key2);
 window.alert(value2);
+*/
+
+var chocbar = {
+	"Energy (KJ)": "2058kJ",
+	"Energy (Kcal)": "500kcal",
+	"Protein" : "6.2g",
+	"Carbohydrate" : "58.5g" {
+		"of which sugar" : "54g"
+	}
+	"Total fat" : "26.5g" {
+		"(of which saturated fat)" : "16.0g"
+	}
+	"Fibre" : "0.6g"
+	{
+		"Equivalent as salt" : "0.2g"
+	}
+	}
+var chocbarstring = JSON.stringify (chocbar);
+window.localStorage.setItem("Carbohydrate", "Total fat", "Fibre", chocbarstring);
+var getchocbar = window.localStorage.getItem("Carbohydrate","Total fat", "Fibre");
+var chocbarJSON = JSON.parse(getchocbar);
+
     //event listerner
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
