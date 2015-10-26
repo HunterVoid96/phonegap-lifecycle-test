@@ -20,7 +20,7 @@ window.alert(value6);
 window.alert(key2);
 window.alert(value2);
 */
-
+/*
 var chocbar = {
 	"Energy (KJ)": "2058kJ",
 	"Energy (Kcal)": "500kcal",
@@ -41,7 +41,7 @@ window.localStorage.setItem("Carbohydrate", "Total fat", "Fibre", chocbarstring)
 var getchocbar = window.localStorage.getItem("Carbohydrate","Total fat", "Fibre");
 var chocbarJSON = JSON.parse(getchocbar);
 window.alert("Carbohydrate");
-
+*/
     //event listerner
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
